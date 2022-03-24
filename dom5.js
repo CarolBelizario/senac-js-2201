@@ -28,7 +28,7 @@
 //looping 
 //forEach
 
-const itens = document.getElementsByTagName('li');
+/*const itens = document.getElementsByTagName('li');
 
 let itensArray = Array.from(itens);
 
@@ -47,5 +47,27 @@ let mudaCor = Array.from(itensImpares);
 
 mudaCor.forEach(function(item){
     item.style.background = '#dedede';
-});
+});*/
 
+//AULA 23-03-2022
+/*
+const ITENS = document.querySelector('ul.collection');//quando for const, deixar em maiusculo
+
+//let valor = ITENS.children.textContent = 'Adicionar item';
+
+console.log(ITENS.children[2].firstChild);
+
+//ITENS.children[2].firstChild.textContent = 'Estudar mais' - isso muda meu item na lista, mas faz a mesma coisa
+ITENS.children[2].firstChild.textContent.data = 'Vamos ver agora'//isso recoloca meu item na lista
+*/
+
+/*PEGAR E MOSTRAR NO CONSOLE O NOVA TAREFA
+const LABEL = document.querySelector('form div label');
+
+console.log(LABEL.textContent);
+*/
+
+const MUDAR = document.querySelector('a.clear-tasks');
+console.log(MUDAR.textContent);
+
+MUDAR.textContent = 'APAGAR';
