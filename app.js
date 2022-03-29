@@ -16,6 +16,6 @@ console.log(minhaVar);
 
 
 
-function diretoNoElemento(){
+function diretoNoElemento(){ //isso está sendo chamado no html anterior
     console.log('Olá mundo!');
 }
