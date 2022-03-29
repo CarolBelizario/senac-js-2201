@@ -3,9 +3,9 @@ saida = document;
 
 saida = document.head;
 saida = document.body;
-saida = document.body.firstElementChild;
-saida = document.body.firstElementChild.firstElementChild;
-saida = document.body.firstElementChild.firstElementChild.firstElementChild;
+saida = document.body.firstElementChild;//chama a classe e primeiro filho
+saida = document.body.firstElementChild.firstElementChild;//filho do filho
+saida = document.body.firstElementChild.firstElementChild.firstElementChild;//e assim por diante
 saida = document.doctype;
 saida - document.domain; 
 saida = document.URL;
