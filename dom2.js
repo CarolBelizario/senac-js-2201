@@ -1,5 +1,5 @@
-const p = document.getElementById('paragrafo');
-const titulo = document.querySelector('h1');
+const p = document.getElementById('paragrafo');//vai pegar o conteúdo digitado pelo usuário
+const titulo = document.querySelector('h1');//vai varrer o código em busca de h1 
 
 console.log(titulo);
 
@@ -14,7 +14,7 @@ if(confirm('Quer entrar com um valor?')){
         p.innerText = '';
 
         for(i=1; i <= valor; i++){
-            p.innerText = p.innerText + 'Carol\n';
+            p.innerText = p.innerText + 'Carol\n';//repete o texto pela quantia de vezes digitado pela inserção do usuário
         }
 
         titulo.style.background = 'salmon';
