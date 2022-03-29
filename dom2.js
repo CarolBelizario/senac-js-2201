@@ -6,9 +6,9 @@ console.log(valor);
 
 */
 
-const p = document.getElementById('paragrafo');
+const p = document.getElementById('paragrafo');//vai pegar valor do campo digitado pelo usuário
 
-//p.innerText = 'Meu texto!';
+//p.innerText = 'Meu texto!'; isso retorna o valor inserido
 
 if(confirm('Quer entrar com um valor?')){
 
